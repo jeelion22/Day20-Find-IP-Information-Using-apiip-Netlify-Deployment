@@ -78,7 +78,7 @@ error_body.append(error_block)
 
 
 // create an async function using fetch api
-async function get_ip_info(ip_string, api_key) {
+async function get_ip_info(ip_string) {
 
     // use try-catch blocks for error catching
 
@@ -86,7 +86,7 @@ async function get_ip_info(ip_string, api_key) {
 
     
         // create an url with api-key
-        const url = `https://apiip.net/api/check?ip=${ip_string}&accessKey=${api_key}`
+        const url = `https://apiip.net/api/check?ip=${ip_string}&accessKey=b1ae6ccc-9765-440a-a89a-d91eb16fd29e`
 
         var ip_data = await fetch(url);
 
@@ -181,7 +181,7 @@ btn.addEventListener("click", (event)=>{
     event.preventDefault();
     
     let ip_addr = document.querySelector(".form-control").value;
-    get_ip_info(ip_addr, api_key)   
+    get_ip_info(ip_addr)   
     
 })
 
