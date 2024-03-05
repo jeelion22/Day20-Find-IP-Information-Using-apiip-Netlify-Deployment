@@ -32,11 +32,11 @@ No installation is required except a latest web browser.
 
 ## Usage
 
-It can be used for countries specific weather information.
+It can be used for IP specific information.
 
 ## License
 
-It will be updated soon
+MIT LIcence
 
 ---
 
